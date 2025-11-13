@@ -19,7 +19,7 @@ Guess correctly whether the next card drawn from the deck will be **higher** or 
 ### 🔢 **Card Rankings**
 
 Cards rank from **low to high** as follows:
-**Ace (1), 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King.**
+**Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King.**
 (Aces are always **low**, unless you decide otherwise before starting the game.)
 
 Suits (♠, ♥, ♦, ♣) do **not** affect rank.
@@ -46,7 +46,7 @@ Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 
 * **Equal cards:** If the next card is the *same rank* (e.g., two 7s), that counts as **incorrect** (or a “push,” depending on your house rule).
   Choose before the game starts which applies.
-* **Ace flexibility:** You can agree before play whether Ace is **always low**, **always high**, or **both** (e.g., after a King, Ace is lower; after 2, Ace is higher).
+* **Ace flexibility:** You can agree before play whether Ace is **always low** after a Jack, Queen and King and **always high** after a number (e.g., after a King, Ace is lower; after 2, Ace is higher).
 
 ---
 
