@@ -37,8 +37,7 @@ Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 4. The new card becomes the **current card** for the next round.
 5. Continue until:
 
-   * 10 rounds have passed, **or**
-   * The deck runs out (for full-deck play).
+   * 10 rounds have passed
 
 ---
 
