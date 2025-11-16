@@ -1,23 +1,40 @@
 import random
 
 class Card():
-    def __init__(self):
-        self.val = self.generate_card()
+    def __init__(self, suit, rank):
+        self.suit = suit
+        self.rank = rank
 
-    def generate_card(self):
-        ranks = ["Ace", "1", "2", "3", "4", "5", "6", 
-                   "7", "8", "9", "10", "Jack", "Queen", "King"]
-        suits = ["♠", "♥", "♦", "♣"]
-        
-        random_rank = random.randint(0, len(ranks) - 1)
-        random_suit = random.randint(0, len(suits) - 1)
+    @property
+    def suit_val(self):
+        # Map suit names to symbols
+        suit_map = {
+            "Hearts": "♥",            
+            "Diamonds": "♦",
+            "Clubs": "♣",            
+            "Spades": "♠"
+        }
+        return suit_map.get(self.suit, "")
+    
+    @property
+    def rank_val(self):
+        # Map ranks to numerical values for comparison
+        rank_map = {
+            '2': 2,
+            '3': 3,
+            '4': 4,
+            '5': 5,
+            '6': 6,
+            '7': 7,
+            '8': 8,
+            '9': 9,
+            '10': 10,
+            'J': 11,
+            'Q': 12,
+            'K': 13,
+            'A': 14
+        }
+        return rank_map.get(self.rank, 0)
 
-        rank = ranks[random_rank]
-        suit = suits[random_suit]
-
-        # Card will be always be stored in a tuple with a suit and rank
-        card = (suit, rank)
-
-        return card
     
     
