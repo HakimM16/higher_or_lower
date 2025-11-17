@@ -6,13 +6,19 @@ class Dealer:
         self.rounds_played = 0
         self.max_rounds = 10
         self.deck = Deck()
+        self.current_card = self.deck.deal_card()
 
-    def show_current_card(self, card):
-        # card is a tuple (suit, rank)
-        suit, rank = card
-        return f"Current card is: {rank} of {suit}"
-    
-    def show_next_card(self, card):
-        # card is a tuple (suit, rank)
-        suit, rank = card
-        return f"Next card is: {rank} of {suit}"
+    def display_current_card(self):
+        return f"{self.current_card.rank} of {self.current_card.suit}."
+
+    def compare_cards(self, guess):
+        # Deal a new card and compare it with the current card
+        new_card = self.deck.deal_card()
+        old_card = self.current_card
+        # check if new card is higher or lower
+        if guess == "higher":
+            result = new_card.rank_val > old_card.rank_val
+        else:  # guess == "lower"
+            result = new_card.rank_val < old_card.rank_val
+        self.current_card = new_card
+        return result

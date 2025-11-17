@@ -20,7 +20,6 @@ Guess correctly whether the next card drawn from the deck will be **higher** or 
 
 Cards rank from **low to high** as follows:
 **Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King.**
-(Aces are always **low**, unless you decide otherwise before starting the game.)
 
 Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 
@@ -33,7 +32,7 @@ Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 3. The dealer flips the next card face-up:
 
    * If the player guessed **correctly**, they score a point (or continue their streak).
-   * If they guessed **wrong**, their streak returns to 0.
+   * If they guessed **wrong**, they don't score a point.
 4. The new card becomes the **current card** for the next round.
 5. Continue until:
 
