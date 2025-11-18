@@ -5,7 +5,7 @@ from cpu import CPU
 class Game:
     def __init__(self, dealer):
         self.dealer = dealer
-        self.player = Player("Player 1")
+        self.player = Player()
         self.cpu = CPU()
 
     def play_round(self):

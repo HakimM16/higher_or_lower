@@ -1,6 +1,6 @@
 # This will the player class for the Higher or Lower game
 class Player:
-    def __init__(self, name):
+    def __init__(self):
         self.score = 0
 
     def make_guess(self, guess):
