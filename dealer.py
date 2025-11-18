@@ -10,6 +10,9 @@ class Dealer:
 
     def display_current_card(self):
         return f"{self.current_card.rank} of {self.current_card.suit}."
+    
+    def set_new_card(self):
+        self.current_card = self.deck.deal_card()
 
     def compare_cards(self, guess):
         # Deal a new card and compare it with the current card
@@ -22,3 +25,4 @@ class Dealer:
             result = new_card.rank_val < old_card.rank_val
         self.current_card = new_card
         return result
+

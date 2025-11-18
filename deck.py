@@ -7,7 +7,8 @@ class Deck():
     # Example: ('♠', 'Ace')
 
     def __init__(self):
-        self.deck = self.build_deck() # acts as a stack
+        self.deck = [] # acts as a stack
+        self.build_deck()
 
     def build_deck(self):
         suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
