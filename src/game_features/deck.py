@@ -1,5 +1,5 @@
 import random
-from card import Card
+from game_features.card import Card
 
 class Deck():
     # Initialize the deck with 10 unique cards

@@ -1,5 +1,5 @@
 # the dealer class for the Higher or Lower game
-from deck import Deck
+from game_features.deck import Deck
 
 class Dealer:
     def __init__(self, max_rounds=10):

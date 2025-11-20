@@ -1,8 +1,8 @@
 import pathlib
 
-from dealer import Dealer
-from player import Player
-from cpu import CPU
+from game_features.dealer import Dealer
+from game_features.player import Player
+from game_features.cpu import CPU
 
 
 RULES_PATH = pathlib.Path(__file__).with_name("rules.md")
