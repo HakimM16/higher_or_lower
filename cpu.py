@@ -12,5 +12,9 @@ class CPU:
     def increment_score(self):
         self.score += 1
 
+    def reset_score(self):
+        # Mirrors the player Joker penalty so both can lose progress
+        self.score = 0
+
     def get_score(self):
         return self.score

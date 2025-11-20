@@ -13,5 +13,9 @@ class Player:
     def increment_score(self):
         self.score += 1
 
+    def reset_score(self):
+        # Used when Joker penalty triggers and wipes the current score
+        self.score = 0
+
     def get_score(self):
         return self.score
