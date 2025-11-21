@@ -1,2 +1,10 @@
-notes.txt
+# Ignore all pycache folders anywhere
 __pycache__/
+*/__pycache__/
+**/__pycache__/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore notes
+notes.txt

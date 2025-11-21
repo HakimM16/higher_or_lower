@@ -4,13 +4,13 @@ A Python-based card game where you compete against a CPU to guess whether the ne
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Game Rules](#game-rules)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Project Structure](#project-structure)
-- [Running Tests](#running-tests)
-- [Requirements](#requirements)
+- [Features](#-features)
+- [Game Rules](#-game-rules)
+- [Installation](#-installation)
+- [How to Play](#-how-to-play)
+- [Project Structure](#-project-structure)
+- [Running Tests](#-running-tests)
+- [Requirements](#-requirements)
 
 ## ✨ Features
 
@@ -119,6 +119,13 @@ higher_or_lower/
 │       ├── game.py                # Game loop and menu system
 │       └── player.py              # Player logic and input handling
 ├── tests/
+|   ├── card.py                
+│   ├── cpu.py                 
+│   ├── dealer.py             
+│   ├── deck.py               
+│   ├── game.py                
+|   ├── main.py 
+│   ├── player.py              
 │   ├── test_card.py               # Card class tests
 │   ├── test_cpu.py                # CPU logic tests
 │   ├── test_dealer.py             # Dealer and evaluation tests
@@ -128,7 +135,6 @@ higher_or_lower/
 │   ├── test_all.py                # Master test suite
 │   └── README_TESTS.md            # Testing documentation
 ├── docs/
-│   ├── notes.txt                  # Development notes
 │   └── rules.md                   # Complete game rules
 └── README.md                      # This file
 ```
@@ -222,18 +228,6 @@ The player or CPU with the **highest score** after all rounds wins!
 - **Player Wins**: Your score > CPU score 🎉
 - **CPU Wins**: CPU score > Your score 🤖
 - **Tie**: Both scores equal 🤝
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
-## 📝 License
-
-This project is open source and available for educational purposes.
 
 ## 👤 Author
 
