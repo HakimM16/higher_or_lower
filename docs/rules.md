@@ -52,10 +52,7 @@ Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 ### 🧮 **Scoring Options**
 
 Choose one style:
-
-1. **Streak Play:** Count how many guesses in a row a player gets right. Longest streak wins.
-2. **Points Play:** 1 point per correct guess; most points after full deck wins.
-3. **Survival Play:** Each player starts with 3 lives; lose one for each wrong guess — last player standing wins.
+1. **Points Play:** 1 point per correct guess; most points after full deck wins.
 
 ---
 
