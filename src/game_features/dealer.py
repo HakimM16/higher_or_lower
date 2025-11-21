@@ -14,6 +14,8 @@ class Dealer:
         return f"{self.current_card.rank} of {self.current_card.suit}{icon}"
 
     def draw_next_card(self):
+        # Shuffle card deck before drawing next card
+        self.deck.shuffle()
         # Central draw helper so both player and CPU react to the same card
         return self.deck.deal_card()
 

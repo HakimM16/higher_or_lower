@@ -33,8 +33,9 @@ Suits (♠, ♥, ♦, ♣) do **not** affect rank.
 
    * If the player guessed **correctly**, they score a point (or continue their streak).
    * If they guessed **wrong**, they don't score a point.
-4. The new card becomes the **current card** for the next round.
-5. Continue until:
+4. The dealer shuffles the card deck.
+5. The new card becomes the **current card** for the next round.
+6. Continue until:
 
    * 10 rounds have passed
 
